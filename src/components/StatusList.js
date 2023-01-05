@@ -1,5 +1,7 @@
 import React from "react"; 
 import Status from "./Status"
+import FlexContainer from "../components/style/FlexContainer"; 
+
 
 const mainStatusList = [
   {
@@ -16,14 +18,14 @@ const mainStatusList = [
 
 function StatusList(){
   return(
-    <React.Fragment>
+    <FlexContainer>
       {mainStatusList.map((status,index) => 
         <Status username = {status.username}
         status = {status.status}
         date = {status.date}
         key = {index} />
       )}
-    </React.Fragment>
+    </FlexContainer>
   )
 }
 

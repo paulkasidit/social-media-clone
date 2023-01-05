@@ -1,12 +1,15 @@
 import React from "react"; 
-
+import FlexContainer from "../components/style/FlexContainer"; 
 function LeftSideBar(){
 
   return (
-    <React.Fragment>
-      <h1 className="color">Neo Therdal</h1>
+    <FlexContainer>
+        <FlexContainer styles = {{justifyContent: "center"}}>
+          <h1 className="color">Neo Therdal</h1>
+        </FlexContainer>
+
       <p>I am cave man.</p>
-    </React.Fragment>
+    </FlexContainer>
   )
 }
 
