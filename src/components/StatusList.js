@@ -2,6 +2,7 @@ import React from "react";
 import Status from "./Status"
 import 'bulma/css/bulma.min.css'; 
 import './StatusList.css'; 
+import './leftSideBar.css'
 import blank from "./../img/blank.webp";
 import man from "./../img/man.jpeg";
 
@@ -40,7 +41,7 @@ function StatusList(){
         <div class = "columns">
           <div class = "column">
              <figure class="image is-96x96">
-                 <img src = {man} alt ="profile-picture"/>
+                 <img class = "profileImage" src = {man} alt ="profile-picture"/>
              </figure>
           </div>
           <div class = "column">

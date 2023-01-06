@@ -1,4 +1,5 @@
 import React from "react"; 
+import './SearchBar.css'
 
 function SearchBar(){
 
@@ -6,7 +7,9 @@ function SearchBar(){
     <React.Fragment>
       <div class = "columns">
         <div class = "column">
-          <input type="text" placeholder="Search"></input>
+          <div class = "searchBar">
+            <input type="text" placeholder="Search"></input>
+          </div>
         </div>
         <div class = "column">
           <button class = "button is-info is-outlined is rounded has-background-white">
