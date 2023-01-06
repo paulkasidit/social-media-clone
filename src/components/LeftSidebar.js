@@ -8,10 +8,12 @@ function LeftSideBar(){
 
   return (
     <React.Fragment>
-      <div class = "column is-two-thirds">
+      <div class = "column">
             <div class = "box">
               <div class = "parent">  
-                <img class = "headerImage" src = {baby_blue} alt ="header-picture"/>
+                <figure class="image is-400x400">
+                  <img class = "headerImage" src = {baby_blue} alt ="header-picture"/>
+                 </figure>
                   <div class = "columns">
                     <div class = "column">
                       <div class = "media-left">

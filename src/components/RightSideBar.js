@@ -12,7 +12,7 @@ const mainUserList = [
 function RightSideBar(){
   return(
     <React.Fragment> 
-    <div class = "column is-two-thirds">
+    <div class = "column">
       <div class = "box">
           { mainUserList.map((user,index) =>
           <div class = "box"> 

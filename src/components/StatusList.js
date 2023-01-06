@@ -20,7 +20,7 @@ const mainStatusList = [
   {
     username: 'Nancy',
     handle: '@nancyGErTRude68',
-    status: 'Cake seems like a good meal today.',
+    status: 'Cake today.',
     date: "1/11/12"
   },
   {
