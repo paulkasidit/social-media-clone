@@ -19,7 +19,7 @@ function RightSideBar(){
             <div class = "columns">
                 <div class = "column">
                   <figure class="image is-128x128">
-                      <img src = {blank} alt ="profile-picture"/>
+                      <img class src = {blank} alt ="profile-picture"/>
                   </figure>
                 </div>
                 <div class ="column">

@@ -1,0 +1,28 @@
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.headerImage {
+  position: relative;
+  top: 50px;
+  left: 0;
+  z-index: 1;
+}
+
+.profileImage {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    border: 5px grey solid;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.handleInformation{
+  position: absolute; 
+  top: 250px;
+  left: 200px;
+  z-index: 2;
+}

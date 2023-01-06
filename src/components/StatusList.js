@@ -36,14 +36,14 @@ function StatusList(){
     <React.Fragment>
     <div class = "column">
       <div class = "box">
-        <div class = "columns">
+        <div class = "columns has-background-info">
           <div class = "column">
              <figure class="image is-96x96">
                  <img src = {man} alt ="profile-picture"/>
              </figure>
           </div>
           <div class = "column">
-            <div class = "box has-background-info">
+            <div class = "box">
               <input type="text" placeholder="What's happening?"></input>
             </div>
         </div>

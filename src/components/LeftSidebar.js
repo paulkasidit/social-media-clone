@@ -1,6 +1,8 @@
 import React from "react"; 
 import 'bulma/css/bulma.min.css';
+import './leftSideBar.css'
 import man from "./../img/man.jpeg";
+import baby_blue from "./../img/baby_blue.png";
 
 function LeftSideBar(){
 
@@ -8,21 +10,23 @@ function LeftSideBar(){
     <React.Fragment>
       <div class = "column is-two-thirds">
             <div class = "box">
-              <div class = "columns">
-                <div class = "column">
-                  <div class = "media-left">
-                    <figure class="image is-128x128">
-                      <img src = {man} alt ="profile-picture"/>
-                    </figure>
+              <div class = "parent">  
+                <img class = "headerImage" src = {baby_blue} alt ="header-picture"/>
+                  <div class = "columns">
+                    <div class = "column">
+                      <div class = "media-left">
+                        <figure class="image is-128x128">
+                          <img class = "profileImage" src = {man} alt ="profile-picture"/>
+                        </figure>
+                      </div>
+                      <div class = "handleInformation">
+                        <h1><b>Neo Therdal</b></h1>
+                        <p>@.neotherdal</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class  = "column">
-                  <div class = "media-right">
-                    <h1><b>Neo Therdal</b></h1>
-                    <p>@.neotherdal</p>
-                  </div>
-                </div>
-              </div>
+
               <nav class = "breadcrumb has-bullet-separator" aria-label="breadcrumbs">
                 <ul>
                   <li>Tweets</li>
