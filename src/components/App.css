@@ -1,5 +1,7 @@
-.webContainer { 
+.webContainer {height: 250px; width: 1800px}{ 
   position: absolute;
   white-space: nowrap;
   overflow: hidden;
+  min-height: 250px; 
+  min-width: 1800px;
 }

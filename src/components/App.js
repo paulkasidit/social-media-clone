@@ -10,7 +10,6 @@ import StatusList from "./StatusList";
 function App(){
   return (
     <React.Fragment>
-      <div class = "webContainer">
         <section class = "hero is-primary">
           <div class = "hero-body has-text-black-bis has-background-white">
             <div class = "columns">
@@ -31,7 +30,8 @@ function App(){
             </div>
           </div>
         </section>
-
+        
+        <div class = "webContainer">
         <body>
           <section class ="section is-small">
               <div class = "container.is-max-desktop">

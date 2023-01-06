@@ -21,9 +21,11 @@ function LeftSideBar(){
                           <img class = "profileImage" src = {man} alt ="profile-picture"/>
                         </figure>
                       </div>
-                      <div class = "handleInformation">
-                        <h1><b>Neo Therdal</b></h1>
-                        <p>@.neotherdal</p>
+                      <div class = "handleBox">
+                        <div class = "handleInformation">
+                          <h1><b>Neo Therdal</b></h1>
+                          <p>@.neotherdal</p>
+                      </div>
                       </div>
                     </div>
                   </div>

@@ -21,11 +21,13 @@
     z-index: 2;
 }
 
-.handleInformation{
+.handleBox{
   position: absolute; 
-  top: 250px;
-  left: 200px;
-  white-space: nowrap;
-  overflow: hidden;
+  top: 320px;
+  left: 250px;
   z-index: 2;
+}
+
+.handleInformation {
+  position: absolute;
 }
