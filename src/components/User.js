@@ -1,6 +1,6 @@
 import React from "react"; 
 
-function user(props){
+function User(props){
   return(
     <React.Fragment>
       <p>{props.name}</p>
