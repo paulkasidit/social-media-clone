@@ -12,13 +12,13 @@ function LeftSideBar(){
             <div class = "box">
               <div class = "parent">  
                 <figure class="image is-400x400">
-                  <img class = "headerImage" src = {baby_blue} alt ="header-picture"/>
+                  <img class = "headerImage" src = {baby_blue} alt = "header-picture"/>
                  </figure>
                   <div class = "columns">
                     <div class = "column">
                       <div class = "media-left">
                         <figure class="image is-128x128">
-                          <img class = "profileImage" src = {man} alt ="profile-picture"/>
+                          <img class = "profileImage" src = {man} alt = "profile-picture"/>
                         </figure>
                       </div>
                       <div class = "handleBox">
